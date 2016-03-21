@@ -35,6 +35,8 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
+# Use Simple Form
+gem 'simple_form'
 
 
 group :doc do
