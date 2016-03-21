@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,200italic);
+
 .clear {
   clear:both;
 }
@@ -20,18 +22,22 @@
   transform:rotate(-11deg);
   -ms-transform:rotate(-11deg); /* IE 9 */
   -webkit-transform:rotate(-11deg); /* Opera, Chrome, and Safari */
+  font-family: 'SourceCodePro-Medium', sans-serif;
 }
 
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
+  /*font-style: italic;*/
   padding-top: 26px;
+  font-family: 'SourceCodePro-Medium', sans-serif;
 }
 
 .links a {
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'SourceCodePro-Medium', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -40,4 +46,13 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
 }
