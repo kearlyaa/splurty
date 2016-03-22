@@ -37,7 +37,7 @@
   font-family: 'SourceCodePro-Medium', sans-serif;
 }
 
-.about{
+.about, .modal{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
@@ -74,6 +74,18 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 span {
+  color: #999999;
+}
+
+input[type=text]{
+  margin-bottom: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
 .next-quote {
   color:#f84342;
   font-size:20px;
@@ -100,4 +112,15 @@ h2 {
 
 .profile_name{
   margin: 0 0 10px 0;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
 }
