@@ -15,6 +15,14 @@ class QuotesController < ApplicationController
     
   end
 
+  def show
+    @quote = Quote.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+      flash[:error] = "Quote doesn't exist"
+      redirect_to root_path
+  end
+
+
   def about
 
   end
