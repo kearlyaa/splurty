@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,200italic);
 
+
 .clear {
   clear:both;
 }
@@ -23,13 +24,22 @@
   -ms-transform:rotate(-11deg); /* IE 9 */
   -webkit-transform:rotate(-11deg); /* Opera, Chrome, and Safari */
   font-family: 'SourceCodePro-Medium', sans-serif;
+  opacity: .8;
+}
+
+.circle:hover{
+  opacity: 1;
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   /*font-style: italic;*/
   padding-top: 26px;
   font-family: 'SourceCodePro-Medium', sans-serif;
+}
+
+.about{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
 }
 
 .links a {
@@ -38,6 +48,12 @@
   border-bottom: 1px solid #dfdfdf;
   font-family: 'SourceCodePro-Medium', sans-serif;
   font-weight: bold;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.links a:last-child{
+  margin-right: 0px;
 }
 
 header {
@@ -46,6 +62,7 @@ header {
 
 hr {
   clear:both;
+  margin-top: 10px;
 }
 
 h1 {
@@ -71,4 +88,16 @@ h2 {
 
 .logo:hover{
   text-decoration: none;
+}
+
+.no_padding{
+  padding: 0px !important;
+}
+
+.about_splurty{
+  margin: 0 0 40px 0;
+}
+
+.profile_name{
+  margin: 0 0 10px 0;
 }
